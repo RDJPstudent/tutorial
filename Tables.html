@@ -1,0 +1,229 @@
+<!-- table using colspan & rowspan -->
+
+<table>
+    <thead>
+      <th>Column 1</th>
+  @@ -11,7 +13,7 @@
+    <tr>
+      <td style="background: blue">2</td>
+      <td rowspan="3" style="background: red;">2</td>
+      <td rowspan="3" colspan="2">3</td>
+      <td rowspan="3" colspan="2" style="background: yellow;">3</td>
+    </tr>
+    <tr>
+      <td style="background: blue">3</td>
+  @@ -20,3 +22,44 @@
+      <td style="background: blue">4</td>
+    </tr>
+  </table>
+  
+  <!-- table using sectioning elements & caption -->
+  
+  <br />
+  <br />
+  <br />
+  
+  
+  <style>
+  table, th, td 
+  {
+    border: 10px solid black;
+    border-collapse: collapse;
+  }
+  th, td {
+    background-color: red;
+  }
+   th, td {
+    border-style: dotted;
+  }
+  
+  </style>
+  
+  <table>
+    <caption>Table Title</caption>
+      <thead>
+          <tr>
+            <th>Heading 1</th>
+            <th>Heading 2</th>
+            <th>Heading 3</th>
+          </tr>
+      </thead>
+  
+      <tbody>
+        <tr>
+          <td>Cell 1</td>
+          <td>Cell 2</td>
+          <td>Cell 3</td>
+        </tr>
+        <tr>
+          <td>Cell 4</td>
+          <td>Cell 5</td>
+          <td>Cell 6</td>
+        </tr>
+      </tbody>
+  
+      <tfoot>
+        <td colspan="3" align="center">Footer</td>
+      </tfoot>
+  
+  </table>
+  
+  <!--
+  <!doctype html>
+  <html>
+  <head>
+  <title> About curbside Thai. </title>
+  
+  <!-- Sept 9 2025
+  -->
+  <!--
+  </head>
+  <body>
+  
+  <title>This is the title</title>
+  <thead>
+  
+      <th>Heading 1</th>
+      <th>Heading 2</th>
+      <th>Heading 3</th>
+  
+  </thead>
+  
+  <tr>
+  <td>Cell 1</td>
+  <td>Cell 2</td>
+  <td>Cell 3</td>
+  </tr>
+  
+  <tfoot></tfoot>
+  
+  
+  
+  
+  
+      <br>
+      <br>
+      <br>
+  
+      <thead>
+          <th>Column 1</th>
+          <th>Column 2</th>
+          <th>Column 3</th>
+          <th>Column 4</th>
+        </thead>
+        <tr>
+          <td>1</td>
+          <td>1</td>
+          <td colspan="4" style="background: blue;">1</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>2</td>
+          <td style="background: blue">2</td>
+          <td rowspan="3" style="background: red;">2</td>
+          <td rowspan="3" colspan="2">3</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>3</td>
+          <td style="background: blue">3</td>
+        </tr>
+        <tr>
+          <td>4</td>
+          <td>4</td>
+          <td style="background: blue">4</td>
+        </tr>
+      </table>
+  
+      <br>
+      <br>
+      <br>
+  
+  <table cellspacing="10" class="Schedule">
+  <tr><td>This is table 1</td></tr>
+  <tr><td>This is table 2</td></tr>
+  </table>
+  
+  </body>
+  </html>
+  -->
+
+<!----
+<!doctype html>
+<html>
+<head>
+<title> About curbside Thai. </title>
+
+<!-- Sept 9 2025
+-->
+<!---
+</head>
+<body>
+
+<title>This is the title</title>
+<thead>
+
+    <th>Heading 1</th>
+    <th>Heading 2</th>
+    <th>Heading 3</th>
+
+</thead>
+
+<tbody>
+<tr>Cell 1</tr>
+<tr>Cell 2</tr>
+<tr>Cell 3</tr>
+</tbody>
+
+<tfoot></tfoot>
+
+
+
+
+
+    <br>
+    <br>
+    <br>
+
+    <thead>
+        <th>Column 1</th>
+        <th>Column 2</th>
+        <th>Column 3</th>
+        <th>Column 4</th>
+      </thead>
+      <tr>
+        <td>1</td>
+        <td>1</td>
+        <td colspan="4" style="background: blue">1</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>2</td>
+        <td style="background: blue">2</td>
+        <td rowspan="3" style="background: red;">2</td>
+        <td rowspan="3" colspan="2">3</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>3</td>
+        <td style="background: blue">3</td>
+      </tr>
+      <tr>
+        <td>4</td>
+        <td>4</td>
+        <td style="background: blue">4</td>
+      </tr>
+    </table>
+
+    <br>
+    <br>
+    <br>
+
+<table cellspacing="10" class="Schedule">
+<tr><td>This is table 1</td></tr>
+<tr><td>This is table 2</td></tr>
+</table>
+
+</body>
+</html>
+-->
